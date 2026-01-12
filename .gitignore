@@ -1,0 +1,31 @@
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === ignore experimental data ===
+results/
+data/
+features/
+*.npz
+*.pth
+*.pt
+*.csv
+*.png
+*.jpg
+*.jpeg
+
+# === pacakages and environment ===
+.Python
+env/
+venv/
+.env
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# === IDE Configuration ===
+.idea/
+.vscode/
+.DS_Store
